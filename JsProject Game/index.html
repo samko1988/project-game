@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CATCH ME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon1.png">
+</head>
+<body>
+    <header>
+        <div class="full">
+            <div class="container">
+                <div id="startGame" class="head" onclick="start()">                   
+                    <span id="one"> CATCH ME IF YOU CAN!</span>
+                    <span id="two"> CLICK ON ME!</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="full">
+        <div class="container">
+
+            <div id="playArea" class="floatL">
+               <!-- <div><img src="images/fish black4.jpg" alt="" id="clickMe"></div>  -->
+                <div id="clickMe">click me</div>             
+            </div>
+
+            <div class="sideBar floatR">
+                <div id="scoreTitle" class="inSide">
+                    Score:
+                    <br><br><p id="currentScore" class="correntInput">0</p>
+                </div>
+                <div class="inSide">
+                    Points to Next Level:
+                    <br><br><p id="points" class="correntInput">0</p>
+                </div>
+                <div class="inSide">
+                    Level: <br><br>
+                    <p id="correntlevel" class="correntInput">1</p>
+                </div>
+                <div class="inSide">
+                    Missed Clicks:
+                    <br> <br><p id="missClicks" class="correntInput"></p>
+                </div>
+                <div class="inSide">
+                    Timer:
+                    <br><br><p id="my_timer"></p>
+                </div>
+                <div id="highscore" class="inSide">
+                    High Scores:
+                    <p id="topHighScore"></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
